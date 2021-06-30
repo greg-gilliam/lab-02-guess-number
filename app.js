@@ -6,7 +6,7 @@ const targetNumber = Math.floor(Math.random() * 20);
 let guessesRemaining = 4;
 // set event listeners 
 guessButton.addEventListener('click', ()=> {
-    
+    console.log(userGuess, targetNumber, guessesRemaining);
 });
   // get user input
   // use user input to update state 
