@@ -12,7 +12,7 @@ test('userGuess is too High', (expect) => {
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual - compareNumbers(1, 2);
+    const actual = compareNumbers(1, 2);
 
     //Expect
     // Make assertions about what is expected versus the actual result
@@ -26,7 +26,7 @@ test('userGuess is too low', (expect) => {
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual - compareNumbers(1, 0);
+    const actual = compareNumbers(1, 0);
 
     //Expect
     // Make assertions about what is expected versus the actual result
@@ -39,7 +39,7 @@ test('userGuess is right on', (expect) => {
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual - compareNumbers(0, 0);
+    const actual = compareNumbers(0, 0);
 
     //Expect
     // Make assertions about what is expected versus the actual result
