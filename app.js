@@ -7,7 +7,9 @@ let guessesRemaining = 4;
 // set event listeners 
 guessButton.addEventListener('click', ()=> {
     console.log(userGuess, targetNumber, guessesRemaining);
+    const userGuessNum = Number(userGuess);
 });
   // get user input
+
   // use user input to update state 
   // update DOM to reflect the new state
