@@ -7,7 +7,7 @@ export function compareNumbers(resetBtn, results, targetNumber, userGuessNum){
     } 
     else {
         results.textContent = 'Bingo! You guessed right! Game over!';
-        button.disabled = true;
+        btn.disabled = true;
         resetBtn.style.visibility = 'visible';
     }
 
