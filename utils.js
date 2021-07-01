@@ -1,12 +1,14 @@
-export function compareNumbers(targetNumber, str, userGuess){
-    console.log(targetNumber, userGuess);
-
-    if (targetNumber === userGuessNum) {
-        result.textContent = 'You got it! Game over!';
-    } else if (targetNumber > userGuessNum) {
-        result.textContent = 'Your guess is too high';
-    } else {
-        feedback.textContent = 'Your guess is too low';
+export function compareNumbers(resetBtn, results, targetNumber, userGuessNum){
+    if (targetNumber > userGuessNum) {
+        results.textContent = 'Go higher!';
+    } 
+    else if (targetNumber < userGuessNum) {
+        results.textContent = 'Your guess is too high';
+    } 
+    else {
+        results.textContent = 'Bingo! You guessed right! Game over!';
+        button.disabled = true;
+        resetBtn.style.visibility = 'visible';
     }
 
 }
